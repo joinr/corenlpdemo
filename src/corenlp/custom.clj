@@ -3,6 +3,7 @@
    :extends edu.stanford.nlp.pipeline.StanfordCoreNLP
    :state   state
    :init    init
+   :methods [[conlluPrint [Object Object] Object]]
    :constructors {[] []}
    ))
 
@@ -12,3 +13,5 @@
 (defn -conlluPrint
   [this annot output]
   (println "Hello, World!"))
+
+
